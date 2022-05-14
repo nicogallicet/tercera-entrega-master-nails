@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; }
+
+.logo img {
+  width: 150px;
+  border-radius: 5px; }
+
+header {
+  background-color: #0769e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem; }
+  header .menu ul {
+    display: flex;
+    align-items: center;
+    color: white; }
+    header .menu ul li {
+      margin-right: 1.5rem;
+      font-family: "Roboto";
+      font-size: 1.2rem; }
+      header .menu ul li .link {
+        padding: 8px 12px;
+        border-radius: 3px;
+        color: white; }
+
+.menu a:hover {
+  background-color: #034574; }
