@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
 }
+/** Menu Nav**/
 
 .logo img{
     width: 150px;
@@ -29,9 +30,27 @@ header {
                 border-radius: 3px;
                 color: white;
             }
+            .ctt {
+                padding: 8px 12px;
+                border-radius: 3px;
+                color: black;
+            }
         }
     }
 }
-.menu a:hover{
+.link:hover{
     background-color: #034574;
+}
+
+.ctt:last-child {
+    background-color:pink;
+    border: 2px solid pink;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+.ctt:last-child:hover {
+        background-color: transparent;
+        border: 2px solid pink;
+        color: white;
 }
