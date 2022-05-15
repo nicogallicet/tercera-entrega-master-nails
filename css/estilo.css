@@ -75,6 +75,13 @@ header {
 header {
   background-color: #2BB5FD;
   padding: 0.5rem 2rem; }
-  header .nav-bar {
-    align-items: center;
-    color: white; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f8f9fa;
+  font-size: 20px; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  padding: 8px;
+  border-radius: 3px; }
