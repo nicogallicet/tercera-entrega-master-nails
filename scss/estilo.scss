@@ -77,17 +77,3 @@ header {
         }
     }
 }
-
-@media (max-width: 1023px) {
-    .list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    .list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
