@@ -23,3 +23,57 @@ header {
   background-color: white;
   padding: 8px;
   border-radius: 3px; }
+
+/** Footer**/
+.footer {
+  padding: 40px 0;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .footer .redes {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black; }
+    .footer .redes a {
+      font-size: 24px;
+      color: inherit;
+      border: 1px solid black;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 50%;
+      margin: 0 8px;
+      opacity: 0.75; }
+      .footer .redes a :hover {
+        color: white; }
+  .footer .list {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0; }
+    .footer .list li {
+      display: inline-block;
+      padding: 0 15px; }
+    .footer .list a {
+      color: inherit;
+      text-decoration: none;
+      opacity: 0.9; }
+
+@media (max-width: 1023px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 767px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr); } }
