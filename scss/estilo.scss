@@ -57,8 +57,9 @@ header {
         }
     }
     .list {
+        display: flex;
+        flex-wrap: wrap;
         box-sizing: border-box;
-        display: grid;
         grid-template-columns: repeat(5, 1fr);        
         margin-top: 0;
         padding: 0;
@@ -67,8 +68,12 @@ header {
         line-height: 1.6;
         margin-bottom: 0;
         li {
+            flex-wrap: wrap;
             display: inline-block;
             padding: 0 15px;
+            :hover {
+                color: #2BB5FD;
+            }
         }
         a{
             color: inherit;
