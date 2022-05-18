@@ -1,0 +1,75 @@
+.galeria {
+    width: 100%;
+    height: 100%;
+    font-family: inherit;
+    letter-spacing: 1px;
+    .tituloGaleria { 
+        text-align: center;
+        font-size: 40px;
+        color: red;
+        margin-top: 20px;
+    }
+    .tituloGaleria {
+        text-align: center;
+    }
+    .pTituloGaleria {
+        color: #11141B;
+        font-family: "Raleway", Sans-serif;
+        font-size: 1.3rem;
+        font-weight: normal;
+        line-height: 1.5em
+    }
+    .containerGaleria {
+        padding: 30px;
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        .cardGaleria {
+            border: 20px pink;
+            text-align: center;
+            width: 330px;
+            height: 430px;
+            border-radius: 8px;
+            margin-right: 10px;
+            margin-top: 15px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: all 0.25s;
+            .ImgGaleria {
+                width: 330px;
+                height: 220px;
+            }
+            h3 {
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            p {
+                font-family: times nes 'Times New Roman', Times, serif;
+                font-size: 15px;
+                margin-right: 4px;
+                margin-left: 4px;
+            }
+            #boton {
+                color: white;
+                padding: 6px 12px;
+                border: none;
+                border-radius: 5px;
+                background-color: #0D6EFD;
+            }
+        }
+        
+    }
+}
+ .cardGaleria:hover {
+    transform: translateY(-15PX);
+    box-shadow: 0 12px 16px rgba (0, 0, 0, 0.8);
+}
+
+#boton:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
