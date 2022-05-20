@@ -175,6 +175,45 @@ form {
 .cardBlog:hover .cardBack {
   transform: perspective(600px) rotateY(360deg); }
 
+/** Sección Nosotros**/
+/** Galeria Nosotros**/
+#sobreNosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  row-gap: 40px;
+  margin-bottom: 15px; }
+  #sobreNosotros .mision {
+    margin-top: 20px;
+    width: 500px;
+    height: 340px;
+    border: solid 2px pink;
+    padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center; }
+    #sobreNosotros .mision .p-mision {
+      font-size: 15px; }
+  #sobreNosotros .vision {
+    margin-top: 20px;
+    width: 500px;
+    height: 340px;
+    border: solid 2px pink;
+    padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center; }
+
+@media (max-width: 1023px) {
+  #sobreNosotros {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 767px) {
+  #sobreNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 * {
   padding: 0;
   margin: 0;
@@ -200,6 +239,32 @@ header {
   background-color: white;
   padding: 8px;
   border-radius: 3px; }
+
+/** Bienvenida**/
+.Titulo1 {
+  margin-top: 15px;
+  display: grid;
+  justify-content: center;
+  background-color: lightblue;
+  color: white; }
+
+.planes {
+  background-color: pink; }
+  .planes h2 {
+    color: black;
+    font-family: "Hurricane";
+    text-align: center;
+    font-size: 2.5rem; }
+  .planes .textoMembresia {
+    display: grid;
+    justify-items: center;
+    font-size: 1.5rem; }
+
+table {
+  margin-bottom: 15px;
+  display: grid;
+  justify-content: center;
+  background-color: lightblue; }
 
 /** Footer**/
 .footer {

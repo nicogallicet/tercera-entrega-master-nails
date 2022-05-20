@@ -33,6 +33,38 @@ header {
     border-radius: 3px;
 }
 
+/** Bienvenida**/
+.Titulo1 {
+    margin-top: 15px;
+    display: grid;
+    justify-content: center;
+    background-color: lightblue;
+    color: white; }
+
+.planes {
+    background-color: pink;
+    h2 {
+        color: black;
+        font-family: "Hurricane";
+        text-align: center;
+        font-size: 2.5rem;
+            }
+            .textoMembresia {
+                display: grid;
+                justify-items: center;
+                font-size: 1.5rem;
+            }    
+}
+
+table {
+    margin-bottom: 15px;
+    display: grid;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+
+
 /** Footer**/ 
 .footer {
     padding: 40px 0;
