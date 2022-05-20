@@ -115,13 +115,15 @@ form {
 /** Cards Con Informacion**/
 .blog {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   min-height: 50vh; }
   .blog .cardBlog {
     position: relative;
     width: 300px;
-    height: 350px; }
+    height: 350px;
+    margin: 20px; }
     .blog .cardBlog .card {
       border-radius: 10px;
       position: absolute;
